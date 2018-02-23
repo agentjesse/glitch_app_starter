@@ -1,5 +1,4 @@
-// node/express app starts here
-
+require('dotenv').config()
 const express = require('express')
 const bodyParser = require('body-parser')
 // const multer  = require('multer') //reinstall multer package, then uncomment to handle multipart/form-data content-type
